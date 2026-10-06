@@ -1,0 +1,43 @@
+{
+  "version": "1.0",
+  "screen": "home",
+  "components": [
+    {
+      "id": "title_1",
+      "type": "text",
+      "data": {
+        "text": "Welcome back, Ronak",
+        "style": "headline"
+      }
+    },
+    {
+      "id": "card_1",
+      "type": "card",
+      "data": {
+        "title": "Prepare for iOS Interviews",
+        "subtitle": "iOS Basic Questions",
+        "image_url": "https://cdn.example.com/banner.png"
+      }
+    },
+    {
+      "id": "card_2",
+      "type": "card",
+      "data": {
+        "title": "Prepare for System Design Interviews",
+        "subtitle": "System Design · Swift · Architecture",
+        "image_url": "https://cdn.example.com/banner.png"
+      }
+    },
+    {
+      "id": "cta_1",
+      "type": "button",
+      "data": {
+        "title": "Start Practice",
+        "action": {
+          "type": "navigate",
+          "destination": "practice_screen"
+        }
+      }
+    }
+  ]
+}
